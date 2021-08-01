@@ -309,9 +309,9 @@ function addHandlers(){
             // if isPlaying is true then simply run stop() 
             // then start it
             if (isPlaying == true){
-                stopSea();
+                document.getElementById('startButton').click();
             }
-            startSea();
+            document.getElementById('startButton').click();
         })
     }
 
