@@ -306,12 +306,14 @@ function addHandlers(){
     for (i = 0; i < inputFields.length; i++){
         inputFields[i].addEventListener('input', () => {
             // console.log('User Input received');
-            // if isPlaying is true then simply run stop() 
-            // then start it
-            if (isPlaying == true){
+            // if isPlaying is false then simply run startSea() by automatically clicking on button:
+            // else if files are playing, then stop (stopSea) and startSea with new inputs (2 clicks on start button)
+            if (isPlaying == false){
+                document.getElementById('startButton').click();
+            } else {
+                document.getElementById('startButton').click();
                 document.getElementById('startButton').click();
             }
-            document.getElementById('startButton').click();
         })
     }
 
