@@ -84,9 +84,9 @@ function randomButtonAction(){
     // if isPlaying is true then simply stop():
     // then start again
     if (isPlaying == true){
-        stopSea();
+        document.getElementById('startButton').click();
     }
-    startSea();
+    document.getElementById('startButton').click();
 }
 
 
