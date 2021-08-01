@@ -86,7 +86,8 @@ function randomButtonAction(){
     if (isPlaying == false){
         startSea();
     } else {
-        stopSea().then(startSea());
+        stopSea();
+        startSea();
     }
 }
 
