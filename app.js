@@ -304,7 +304,7 @@ function addHandlers(){
     // add event listeners to the inputs; if user changes input, then a function will be called
     const inputFields = document.getElementsByTagName('input');
     for (i = 0; i < inputFields.length; i++){
-        inputFields[i].addEventListener('input', () => {
+        inputFields[i].addEventListener('change', () => {
             // console.log('User Input received');
             // if isPlaying is false then simply run startSea() by automatically clicking on button:
             // else if files are playing, then stop (stopSea) and startSea with new inputs (2 clicks on start button)
