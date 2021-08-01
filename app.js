@@ -81,14 +81,12 @@ function randomButtonAction(){
     // console.log('Enter function randomButtonAction() ...');
     insertRandomInputValues();
     
-    // if isPlaying is false then simply run startSea() by automatically clicking on button:
-    // else if files are playing, then stop (stopSea) and startSea with new inputs
-    if (isPlaying == false){
-        startSea();
-    } else {
+    // if isPlaying is true then simply stopSea():
+    // then start it...
+    if (isPlaying == true){
         stopSea();
-        startSea();
     }
+    startSea();
 }
 
 
