@@ -81,13 +81,12 @@ function randomButtonAction(){
     // console.log('Enter function randomButtonAction() ...');
     insertRandomInputValues();
     
-    // if isPlaying is false then simply startSea():
-    // else first stop it
-    if (isPlaying == false){
-        startSea();
-    } else {
-        stopSea().then(startSea());
+    // if isPlaying is true then simply stop():
+    // then start again
+    if (isPlaying == true){
+        stopSea();
     }
+    startSea();
 }
 
 
