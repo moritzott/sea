@@ -10,14 +10,14 @@ The main aim is to give you a simple tool to relax and imagine yourself on a sea
 You can check out the latest version:
 * [Sea](https://moritzott.github.io/sea/)
 
-## Enhancement
-Currently *Sea* is a pure web application based on HTML, CSS and Javascript. That's why you need an internet connection to run it in your browser. I'm working on an offline version, so that you can enjoy *Sea* wherever you are (independent from your interent connection). Probably I will develop a so called Progressive Web App (PWA), since it seems the easiest way, given the current state of the application. A mobile app version could also be realized with frameworks like Apache Cordova or the Ionic Framework. I'll let you know when it's ready.
+## Install
+*Sea* is a Progressive Web App. You can install it via your browser. Just open the menu of your browser. Depending on your browser (Chrome, Firefox etc.) you have the option to "install" or "add to home screen". When you select one of those two options *Sea* will be added to your homescreen. A so called "Service worker" will download all required files and save them in the browser's cache (this may take a while, so you should have a good internet connection). After it is finished you can start the app even if you don't have an internet connection.
 
 ## Bugs, Errors and new Features
 If you found a bug or want to ask for new features, you can open an [issue](https://github.com/moritzott/sea/issues) or send me an email (you can find the adress when you open the live demo and click on the menu sign. Then scroll down to *Contact*).
 
 ## Latest Version
-Current version is **Version 0.1**.
+Current version is **Version 0.1.1**.
 
 ## Complementary project
 If you prefer a walk in a forest you can check out my complementary project *Forest* to create your own forest soundscape:
