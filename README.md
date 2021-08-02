@@ -11,7 +11,8 @@ You can check out the latest version:
 * [Sea](https://moritzott.github.io/sea/)
 
 ## Install
-*Sea* is a Progressive Web App. You can install it via your browser. Just open the menu of your browser. Depending on your browser (Chrome, Firefox etc.) you have the option to "install" or "add to home screen". When you select one of those two options *Sea* will be added to your homescreen. A so called "Service worker" will download all required files and save them in the browser's cache (this may take a while, so you should have a good internet connection). After it is finished you can start the app even if you don't have an internet connection.
+*Sea* is a Progressive Web App. You can install it via your browser. Just open the menu of your browser. Depending on your browser (Chrome, Firefox etc.) you have the option to "install" or "add to home screen". When you select one of those two options *Sea* will be added to your homescreen. A so called "Service worker" should download all required files and save them in the browser's cache (this may take a while, so you should have a good internet connection).
+**Warning:** After it is finished you sould be able start the app even if you don't have an internet connection. The PWA is in a beta status, so it might be that it only works fine with an internet connection. I recommend to use the app online until the offline support is approved.
 
 ## Bugs, Errors and new Features
 If you found a bug or want to ask for new features, you can open an [issue](https://github.com/moritzott/sea/issues) or send me an email (you can find the adress when you open the live demo and click on the menu sign. Then scroll down to *Contact*).
