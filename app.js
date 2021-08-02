@@ -24,7 +24,7 @@ const harborTwo = new Audio();
 
 
 // set Attributes (for Debugging):
-/*
+
 weatherOne.setAttribute('designator', 'rain1');
 weatherTwo.setAttribute('designator', 'rain2');
 
@@ -39,11 +39,11 @@ harborTwo.setAttribute('designator', 'trees2');
 
 waterOne.setAttribute('designator', 'water1');
 waterTwo.setAttribute('designator', 'water2');
-*/
+
 
 
 function createSea(){
-    // console.log('Enter function create Sea() ...');
+    console.log('Enter function create Sea() ...');
     // get all the user input values
     const birdsValue = document.getElementById('birdsInput').value;
     const windValue = document.getElementById('windInput').value;
@@ -65,7 +65,7 @@ function createSea(){
 
 
 function insertRandomInputValues(){
-    // console.log('Enter function insertRandomInputValues() ...');
+    console.log('Enter function insertRandomInputValues() ...');
     // random values between 0 .. 100 insert in all input-fields
     const seaAttributes = document.getElementsByTagName('input');
 
@@ -78,7 +78,7 @@ function insertRandomInputValues(){
 
 // when the Random-Sea Button is clicked:
 function randomButtonAction(){
-    // console.log('Enter function randomButtonAction() ...');
+    console.log('Enter function randomButtonAction() ...');
     insertRandomInputValues();
     
     // if isPlaying is true then simply stop():
@@ -94,7 +94,7 @@ function randomButtonAction(){
 // the next file will start playing just a bit before the current file will end...
 // the function will call itself, but with changed parameters
 function playLoop(sound1, sound2){
-    // console.log('Playing', sound1.getAttribute('designator'));
+    console.log('Playing', sound1.getAttribute('designator'));
     sound1.play();
     sound1.ontimeupdate = function (){
         // console.log(sound1.getAttribute('designator'), ':', sound1.currentTime);
@@ -203,7 +203,7 @@ function selectHarborAudio(value){
 }
 
 function stopSea(){
-    // console.log('Enter function stopSea() to stop playback loop......');
+    console.log('Enter function stopSea() to stop playback loop......');
     isPlaying = false;
 
     // halt the audio files => double check in the function playLoop() above to halt definitive the audio files
@@ -229,7 +229,7 @@ function stopSea(){
 
 
 function startSea(){
-    // console.log('Enter startSea() ...');
+    console.log('Enter startSea() ...');
 
     document.getElementById('startButton').innerText = 'STOP'; // change inner Text, to show new function of that button (see below)
 
@@ -297,7 +297,7 @@ function closeModal(){
 
 // add event-listeners to elements
 function addHandlers(){
-    // console.log('Enter function addHandlers()...');
+    console.log('Enter function addHandlers()...');
     document.getElementById('startButton').addEventListener('click', startSea);
     document.getElementById('randomButton').addEventListener('click', randomButtonAction);
     
@@ -305,7 +305,7 @@ function addHandlers(){
     const inputFields = document.getElementsByTagName('input');
     for (i = 0; i < inputFields.length; i++){
         inputFields[i].addEventListener('change', () => {
-            // console.log('User Input received');
+            console.log('User Input received');
             // if isPlaying is true then simply stop
             // then start with new inputs
             if (isPlaying == true){
