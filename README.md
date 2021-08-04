@@ -11,7 +11,7 @@ Sea is a private project that I started in June 2021. At that time I was looking
 ![Sea-Example](./sea-example.png)
 
 ## Live-Demo
-You can check out the latest version:
+You can check out the latest version (servers might be a bit slow sometimes):
 * [Sea](https://moritzott.github.io/sea/)
 
 ## Mobile Version
