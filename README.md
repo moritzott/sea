@@ -6,7 +6,7 @@ In a complicated and stressed world you need time to relax and get back to your 
 *Sea* is a web application that lets you create your own sea soundscape.
 The main aim is to give you a simple tool to relax and imagine yourself on a sea promenade of your choice. You can choose the soundscape and regulate intensities of elements as you wish. You like more birds? Or a stormy water? Or a walk on a rainy sea promenade? Harbor and ship sounds? No problem. Your changes will act immediately. You can build your own coast or take a sound dive in a random setting. Sit back and enjoy!
 
-Sea is a private project that I started in June 2021. At that time I was looking for a simple solution that would allow me to quickly relax during my studies at university.
+Sea is a private project that I started in June 2021. At that time I was looking for a simple solution that would allow me to relax during my studies at university.
 
 ![Sea-Example](./sea-example.png)
 
