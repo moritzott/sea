@@ -320,5 +320,19 @@ function addHandlers(){
     document.getElementById('closeModalButton').addEventListener('click', closeModal);;
 }
 
+function registerServiceWorker(){
+    console.log('Enter function registerServiceWorker() ...');
+    // Make sure service worker are supported
+    if ('serviceWorker' in navigator){
+        navigator.serviceWorker
+            .register('https://moritzott.github.io/sea/serviceworker.js')
+            .then(registrationObject => console.log('ServiceWorker registered.'))
+            .catch(error => console.log(`ServiceWorker Error: ${error}`))
+    } else {
+        console.log('ServiceWorker not supported nor registered.');
+    }
+}
+
 // add primary eventListener:
 window.addEventListener('load', addHandlers);
+window.addEventListener('load', registerServiceWorker);
