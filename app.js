@@ -124,81 +124,81 @@ function playLoop(sound1, sound2){
 
 function selectBirdsAudio(value){
     if(value > 90){
-        return './audio/seagulls4.ogg';
+        return './audio/seagulls4.mp3';
     } else if (value > 65){
-        return './audio/seagulls3.ogg';
+        return './audio/seagulls3.mp3';
     } else if (value > 35){
-        return './audio/seagulls2.ogg';
+        return './audio/seagulls2.mp3';
     } else if (value > 15){
-        return './audio/seagulls1.ogg';
+        return './audio/seagulls1.mp3';
     } else {
-        return './audio/silence.ogg';
+        return './audio/silence.mp3';
     }
 }
 
 function selectWindAudio(value){
     if(value > 90){
-        return './audio/wind6.ogg';
+        return './audio/wind6.mp3';
     } else if (value > 75){
-        return './audio/wind5.ogg';
+        return './audio/wind5.mp3';
     } else if (value > 60){
-        return './audio/wind4.ogg';
+        return './audio/wind4.mp3';
     } else if (value > 50){
-        return './audio/wind3.ogg';
+        return './audio/wind3.mp3';
     } else if (value > 30){
-        return './audio/wind2.ogg';
+        return './audio/wind2.mp3';
     } else if (value > 5){
-        return './audio/wind1.ogg';
+        return './audio/wind1.mp3';
     } else {
-        return './audio/silence.ogg';
+        return './audio/silence.mp3';
     }
 }
 
 
 function selectWaterAudio(value){
     if(value > 80){
-        return './audio/waves6.ogg';
+        return './audio/waves6.mp3';
     } else if (value > 65){
-        return './audio/waves5.ogg';
+        return './audio/waves5.mp3';
     } else if (value > 50){
-        return './audio/waves4.ogg';
+        return './audio/waves4.mp3';
     } else if (value > 40){
-        return './audio/waves3.ogg';
+        return './audio/waves3.mp3';
     } else if (value > 25){
-        return './audio/waves2.ogg';
+        return './audio/waves2.mp3';
     } else if (value > 10){
-        return './audio/waves1.ogg'
+        return './audio/waves1.mp3'
     } else {
-        return './audio/silence.ogg';
+        return './audio/silence.mp3';
     }
 }
 
 function selectWeatherAudio(value){
     if(value > 90){
-        return './audio/rain5.ogg';
+        return './audio/rain5.mp3';
     } else if (value > 80){
-        return './audio/rain4.ogg';
+        return './audio/rain4.mp3';
     } else if (value > 70){
-        return './audio/rain3.ogg';
+        return './audio/rain3.mp3';
     } else if (value > 60){
-        return './audio/rain2.ogg';
+        return './audio/rain2.mp3';
     } else if (value > 50){
-        return './audio/rain1.ogg'
+        return './audio/rain1.mp3'
     } else {
-        return './audio/silence.ogg';
+        return './audio/silence.mp3';
     }
 }
 
 
 function selectHarborAudio(value){
     if(value > 90){
-        return './audio/harbor3.ogg';
+        return './audio/harbor3.mp3';
     } else if (value > 75){
-        return './audio/harbor2.ogg';
+        return './audio/harbor2.mp3';
     } else if (value > 40){
-        return './audio/harbor1.ogg';
+        return './audio/harbor1.mp3';
     } else {
-        return './audio/silence.ogg';
+        return './audio/silence.mp3';
     }
 }
 
